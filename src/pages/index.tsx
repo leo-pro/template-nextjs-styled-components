@@ -4,7 +4,6 @@ import Image from 'next/image';
 import { Container, Button} from '../styles/pages/Home';
 
 import { ThemeContext } from 'styled-components';
-import styled from 'styled-components';
 
 import { LightbulbFill } from '@styled-icons/bootstrap/';
 import { LightbulbOff } from '@styled-icons/bootstrap/';
@@ -15,13 +14,6 @@ interface Props{
 
 export default function Home ({toggleTheme} : Props) {
   const { title } = useContext(ThemeContext);
-
-  // const LightsOff = styled(LightbulbOff)`
-  //   font-size: 5px;
-  // `;
-  // const LightsOn = styled(LightbulbFill)`
-  //   font-size: 5px;
-  // `;
   
   return (  
     <Container>
@@ -33,7 +25,7 @@ export default function Home ({toggleTheme} : Props) {
       />
       
       <h1>Boilerplate to start new projects in Next.js with Styles-components</h1>
-      <p>Optime configuration for styled-components and ESLint</p>
+      <p>Optimize configuration for styled-components and ESLint, including theme switcher</p>
 
       <Button onClick={toggleTheme}>
         {title === 'dark'? <LightbulbOff width={20}/> : <LightbulbFill width={20}/> }
