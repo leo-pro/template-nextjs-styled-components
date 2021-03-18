@@ -22,11 +22,6 @@ declare module 'styled-components' {
       background: string;
       text: string;
     };
-    fontSizes: {
-      small: string;
-      medium: string;
-      large: string;
-    };
   }
 
   export interface CustomTheme {
