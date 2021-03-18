@@ -33,4 +33,4 @@ To install and run the application:
 </p>
 
 ##
-Made With ❤️ & NextJS by [Leonardo Alves](https://github.com/leo-pro)
+Made With ❤️ & NextJS/Styled-components by [Leonardo Alves](https://github.com/leo-pro)
