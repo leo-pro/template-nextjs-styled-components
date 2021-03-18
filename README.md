@@ -1,4 +1,4 @@
-<img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4b24bb94-c9ea-4984-a8cb-300ce4553abb%2Fnlw4-banner-github.png?table=block&id=d50c626b-7d28-4bfc-b9f0-ea2b42347e3e&spaceId=08f749ff-d06d-49a8-a488-9846e081b224&width=5120&userId=4f8d221d-2623-40e4-b2ff-00a27ceaf95e&cache=v2" width="100%">
+<img src="https://raw.githubusercontent.com/leo-pro/template-nextjs-styled-components/main/public/image.jpg" width="100%">
 <h2 align="center">
 <img src="https://raw.githubusercontent.com/leo-pro/template-nextjs-styled-components/main/public/image.jpg" width="20px"> Move.it
 </h2>
