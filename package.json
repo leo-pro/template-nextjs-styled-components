@@ -8,6 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@styled-icons/bootstrap": "^10.29.0",
     "@types/node": "^14.14.35",
     "@types/react": "^17.0.3",
     "next": "10.0.9",

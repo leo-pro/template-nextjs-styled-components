@@ -12,4 +12,11 @@ export default createGlobalStyle`
     color: ${props => props.theme.colors.text};
     font: 400 1rem "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
   }
+
+  a{
+    text-decoration: none;
+    line-height: 54px;
+    font-weight: 600;
+    color: ${props => props.theme.colors.primary}
+  }
 `;
