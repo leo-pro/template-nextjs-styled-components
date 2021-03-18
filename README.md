@@ -2,12 +2,10 @@
 <img src="https://raw.githubusercontent.com/leo-pro/template-nextjs-styled-components/main/public/image.jpg" width="20px"> Boilerplate for Next.js
 </h2>
 
+## 🎬 Preview
 <img src="https://raw.githubusercontent.com/leo-pro/template-nextjs-styled-components/main/public/video.gif" width="70%">
 
-<p>🖥️ <b>Demo:</b> <a href="https://moveit-nextjs-nlw4.vercel.app/" target="_blank">Click here</a></p>
-
-## 🎬 Preview
-<img src="https://devleo.com.br/assets/images/mockups/mockup-web-searchrepo.png" width="400px" height="auto">
+<p>🖥️ <b>Demo:</b> <a href="https://nextjs-styledcomponents.vercel.app/" target="_blank">Click here</a></p>
 
 ## Install and Run
 To install and run the application:
