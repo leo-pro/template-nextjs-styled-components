@@ -5,7 +5,7 @@
 ## 🎬 Preview
 <img src="https://raw.githubusercontent.com/leo-pro/template-nextjs-styled-components/main/public/video.gif" width="70%">
 
-<p>🖥️ <b>Demo:</b> <a href="https://nextjs-styledcomponents.vercel.app/" target="_blank">Click here</a></p>
+<p>🖥️ <b>Demo:</b> <a href="https://boilerplate-nextjs-styled-components.vercel.app/" target="_blank">Click here</a></p>
 
 ## Install and Run
 To install and run the application:
