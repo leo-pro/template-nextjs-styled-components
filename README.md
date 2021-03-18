@@ -12,8 +12,8 @@ To install and run the application:
 
 * Clone repository and install dependencies: 
 ```
-  git clone https://github.com/leo-pro/moveit-nextjs-nlw4/
-  cd moveit-nextjs-nlw4
+  git clone https://github.com/leo-pro/template-nextjs-styled-components/
+  cd template-nextjs-styled-components
   yarn or npm install
 ```
 * Running the project into your browser at http://localhost:3000
@@ -22,12 +22,18 @@ To install and run the application:
   # or
   npm run dev
 ```
+* Generating static build to deploy
+```
+  yarn build
+  # or
+  npm run build
+```
 
 ## Techs
 <p>
   <img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=next.js&logoColor=white">
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
-  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+  <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
 </p>
 
 ##
