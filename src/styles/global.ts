@@ -1,4 +1,4 @@
-import { createGlobalStyle} from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
   *{
@@ -8,15 +8,26 @@ export default createGlobalStyle`
   }
 
   body{
-    background: ${props => props.theme.colors.background};
-    color: ${props => props.theme.colors.text};
-    font: 400 1rem "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    background: ${props =>
+      props.theme.title === 'dark'
+        ? props.theme.colors.background
+        : props.theme.colors.white};
+    color: ${props =>
+      props.theme.title === 'dark'
+        ? props.theme.colors.white
+        : props.theme.colors.black};
+    font-size: 1rem;
+    font-family: ${props => props.theme.typography.fontFamily}, sans-serif;
+    transition: background 0.5s;
   }
 
   a{
     text-decoration: none;
     line-height: 54px;
     font-weight: 600;
-    color: ${props => props.theme.colors.primary}
+    color: ${props =>
+      props.theme.title === 'dark'
+        ? props.theme.colors.white
+        : props.theme.colors.black};
   }
-`;
+`

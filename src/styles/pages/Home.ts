@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100vw;
@@ -9,42 +9,43 @@ export const Container = styled.div`
   align-items: center;
   flex-direction: column;
 
-  h1{
+  h1 {
     font-size: 2rem;
-    color: ${props => props.theme.colors.text};
+    color: ${props =>
+      props.theme.title === 'dark'
+        ? props.theme.colors.white
+        : props.theme.colors.black};
     margin-top: 40px;
   }
 
-  p{
+  p {
     margin-top: 24px;
     font-size: 24px;
     line-height: 32px;
   }
 
-  span{
+  span {
     margin-top: 4rem;
   }
-`;
+`
 
 export const Button = styled.button`
-  background: ${props => props.theme.colors.primary};
-
-  border: 1px solid ${props => props.theme.colors.secundary};
-  border-radius: 4px;
-
-  height: 40px;
-  padding: 0px 15px;
-  margin-top: 3rem;
-
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: #ffffff;
-
+  border-radius: 0.5rem;
+  border: none;
+  color: ${props => props.theme.colors.buttonText};
+  min-width: 14.5rem;
+  min-height: 4rem;
+  margin: 1.25rem 0;
+  font-family: ${props => props.theme.typography.fontFamily};
+  font-size: 1.375rem;
+  font-weight: 500;
   cursor: pointer;
+  line-height: 33px;
+  letter-spacing: -0.094rem;
+  background: linear-gradient(90deg, #00c6c2 0%, #00b0bd 0.01%, #3730a3 100%);
+  transition: 0.3s ease;
 
-  transition: ease-in filter 0.2s;
-  
-  &:hover{
-    filter: grayscale(0.2);
+  &:hover {
+    filter: brightness(0.8);
   }
-`;
+`
